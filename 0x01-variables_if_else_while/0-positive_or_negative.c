@@ -3,26 +3,31 @@
 #include <stdio.h>
 
 /**
- *  main - Entry point
- *
- *  Description - Print n value status; zero, positive or negative
- *
- *  Return: Always 0 (success)
- */
+ * main - print whether the num stored in the variable n is pos or neg.
+ * Return: 0
+**/
 
 int main(void)
 {
 	int n;
+
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 
-	/* my code */
+	printf("%d", n);
+
 	if (n > 0)
-		printf("%i is positive\n", n);
+	{
+		puts(" is positive");
+	}
 	else if (n == 0)
-		printf("%i is zero\n", n);
-	else 
-		printf("%i is negative\n", n);
+	{
+		puts(" is zero");
+	}
+	else
+	{
+		puts(" is negative");
+	}
 
 	return (0);
 }

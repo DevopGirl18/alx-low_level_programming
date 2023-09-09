@@ -1,91 +1,60 @@
-# 0x00. C -Hello, World
+![img](https://assets.imaginablefutures.com/media/images/ALX_Logo.max-200x150.png)
 
-## Resources
+# C is FUN 😊
 
-- [C - Books and PDF's](../references) to check out and use as a reference.
-- [Dennis Ritchie](https://en.wikipedia.org/wiki/Dennis_Ritchie) creator of C.
-- "C" Programming Language: Brian Kernighan - [Computerphile](https://www.youtube.com/watch?v=de2Hsvxaf8M).
-- Learning to Program in C by Jonathan Engelsma [Youtube Playlist](https://youtube.com/playlist?list=PLIsXzR_wZY-yQMHOK7D3Dls4VoTGuRovd)
-- [Understanding C program Compilation Process](https://www.youtube.com/watch?v=VDslRumKvRA).
-- [Holberton Betty Guide](https://github.com/holbertonschool/Betty/wiki) C coding style.
-- [Hash-bang under the hood](https://twitter.com/unix_byte/status/1024147947393495040?s=21).
-- [Linus Torvalds on C vs C++](http://harmful.cat-v.org/software/c++/linus).
-- [UPEvent: GCC and Makefiles](https://youtu.be/OnEF1MexJlI) **Important watch this**
+>Learning C right now, been wanting to get on this. It's going to be FUN !!.
 
-## Tasks
+<p align="center">
+  <img src="https://i.postimg.cc/rprHShJ1/C-compilation-process.gif" />
+</p>
 
-<details>
-<summary><a href="./0-preprocessor">0. Preprocessor</a></summary><br>
+## About
 
-<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/R0TYHDp0/image.png' border='0' alt='image'/></a>
-- Here is the *[$CFILE](./main/main.c)* file.
+- This repository consists of all the C programming projects done with [ALX Africa](https://www.alxafrica.com/) Full stack Software Engineering course in partnership with [Holberton School](https://www.holbertonschool.com/) by [th3\_gr00t](https://th3-gr00t.tk/).
+- All main.c files are prewritten by the school. We build functions that produce a specific output while also taking into consideration edge cases.
 
-</details>
+---
 
-<details>
-<summary><a href="./1-compiler">1. Compiler</a></summary><br>
+- C is fun but its not that easy, so I have some [notes](./notes.md) that will actually show you the journey and thought process.
 
-<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/KYXbNw5r/image.png' border='0' alt='image'/></a>
-- Here is the *[$CFILE](./main/main.c)* file.
+## Resource
 
-</details>
+- C [Books and PDF's](./references) to check out and use as a reference.
 
-<details>
-<summary><a href="./2-assembler">2. Assembler</a></summary><br>
+---
 
-<a href='https://postimg.cc/kDBC1dZw' target='_blank'><img src='https://i.postimg.cc/nV1LLF18/image.png' border='0' alt='image'/></a>
-- Here is the *[$CFILE](./main/main.c)* file.
+- [0x00](./0x00-hello_world) : Hello, World.
+- [0x01](./0x01-variables_if_else_while) : Variables,if,else,while.
+- [0x02](./0x02-functions_nested_loops) : Functions, nested loops.
+- [0x03](./0x03-debugging) : Debugging.
+- [0x04](./0x04-more_functions_nested_loops) : More Functions and nested loops.
+- [0x05](./0x05-pointers_arrays_strings) : Pointers, arrays and strings.
+- [0x06](./0x06-pointers_arrays_strings) : More pointers, arrays and strings.
+- [0x07](./0x07-pointers_arrays_strings) : Even more pointers, arrays and strings.
+- [0x08](./0x08-recursion) : Recursion.
+- [0x09](./0x09-static_libraries) : Static libraries.
+- [0x0A](./0x0A-argc_argv) : argc, argv[].
+- [0x0B](./0x0B-malloc_free) : Malloc, free.
+- [0x0C](./0x0C-more_malloc_free) : More malloc, free.
+- [0x0D](./0x0D-preprocessor) : Preprocessor.
+- [0x0E](./0x0E-structures_typedef) : Structures, typedef.
+- [0x0F](./0x0F-function_pointers) : Function pointers.
+- [0x10](./0x10-variadic_functions) : Variadic functions.
+- [0x11](https://github.com/iAmG-r00t/printf) : Write our own printf project.
+- [0x12](./0x12-singly_linked_lists) : Singly linked lists.
+- [0x13](./0x13-more_singly_linked_lists) : More singly linked lists.
+- [0x14](./0x14-bit_manipulation) : Bit manipulation.
+- [0x15](./0x15-file_io) : File I/O.
+- [0x1C](./0x1C-makefiles) : Makefiles.
+- [0x1D](https://github.com/iAmG-r00t/binary_trees) : Binary trees.
+- [0x1E](./0x1E-search_algorithms) : Search Algorithms.
 
-</details>
+---
 
-<details>
-<summary><a href="./3-name">3. Name</a></summary><br>
+# More Resources
 
-<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/qRyzw2ng/image.png' border='0' alt='image'/></a>
-- Here is the *[$CFILE](./main/main.c)* file.
-
-</details>
-
-
-<details>
-<summary><a href="./4-puts.c">4. Hello, puts</a></summary><br>
-
-<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/bJt257Xy/image.png' border='0' alt='image'/></a>
-- Compile and run this way: `gcc -Wall -Werror -Wextra -pedantic -std=gnu89 4-puts.c -o puts`.
-
-</details>
-
-
-<details>
-<summary><a href="./5-printf.c">5. Hello, printf</a></summary><br>
-
-<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/14xVPJQG/image.png' border='0' alt='image'/></a>
-- Compile this way: `gcc -Wall -Werror -Wextra -pedantic -std=gnu89 5-printf.c -o printf`.
-
-</details>
-
-
-<details>
-<summary><a href="./6-size.c">6. Size is not grandeur, and territory does not make a nation</a></summary><br>
-
-<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/3rqgnFPJ/image.png' border='0' alt='image'/></a>
-- Compile this way: `gcc 6-size.c -m32 -o size32 2> /tmp/32` & `gcc 6-size.c -m64 -o size64 2> /tmp/64`
-- Compare outputs for the `size32` and `size64`.
-
-</details>
-
-<details>
-<summary><a href="./100-intel">7. Intel</a></summary><br>
-
-<a href='https://postimg.cc/PNS1z1D0' target='_blank'><img src='https://i.postimg.cc/BQ0N3gnZ/image.png' border='0' alt='image'/></a>
-- Here is the *[$CFILE](./main/main.c)* file.
-
-</details>
-
-<details>
-<summary><a href="./101-quote.c">8. UNIX is basically a simple operating system, but you have to be a genius to understand the simplicity</a></summary><br>
-
-<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/HkGmdF7c/image.png' border='0' alt='image'/></a>
-- Compile this way: `gcc -Wall -Werror -Wextra -pedantic -std=gnu89 -o quote 101-quote.c`.
-
-</details>
+- [Pointers and Arrays](./PointerArrays) : Code snippets and notes on Pointers and Arrays from Concept Page.
+- [Data Structures](./DataStructures) : Code snippets and notes on data structures.
+- [Dynamic Memory Allocation](./dynamic_memory_alloc) : Code snippets and notes on how dynamic memory allocation works with `malloc` and `free`.
+- [Heap vs Stack](./heap_stack) : Code snippets and notes on what is a heap, a stack and how they work.
+- [Simple Shell Concepts](./simple_shell_concepts) : Code snippets and notes on the concept for the simple shell project.

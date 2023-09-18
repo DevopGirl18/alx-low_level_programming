@@ -7,13 +7,14 @@
 
 /**
  * swap_int - swaps the values of two integers
- * @a: integer to swwap
- * @b: integer to swap
+ * @a: integer to be swaped with @b
+ * @b: integer to be swaped with @a
  */
 
 void swap_int(int *a, int *b)
 {
-	int i = *a;
+	int c;
+	c = *a
 	*a = *b;
 	*b = c;
 }

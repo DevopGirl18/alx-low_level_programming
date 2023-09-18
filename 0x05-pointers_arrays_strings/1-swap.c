@@ -13,8 +13,13 @@
 
 void swap_int(int *a, int *b)
 {
-	int c;
-	c = *a
-	*a = *b;
-	*b = c;
+	 int a;
+         int b;
+
+    a = H;
+    b = P;
+    printf("a=%d, b=%d\n", a, b);
+    swap_int(&a, &b);
+    printf("a=%d, b=%d\n", a, b);
+    return (0);
 }

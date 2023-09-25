@@ -1,3 +1,7 @@
+/**
+ * File: 3-strspn.c
+ * Auth: Igweneme Chidiogo
+ **/
 #include "main.h"
 
 /**

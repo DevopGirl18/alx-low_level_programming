@@ -1,1 +1,1 @@
-s is a repo that shows how linked list are used.
+This is a repo that shows how linked list are used.

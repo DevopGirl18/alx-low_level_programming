@@ -1,1 +1,1 @@
-This repo entails for task fore the singly linked list concept in C programming according to the ALX curriculum.
+This repo contains task for the singly linked list concept in C programming according to the ALX curriculum.
